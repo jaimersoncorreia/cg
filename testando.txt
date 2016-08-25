@@ -1,0 +1,11 @@
+﻿Testando a conexão com o github
+
+echo "# aula16" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:jaimersoncorreia/aula16.git
+git push -u origin master
+
+git remote add origin git@github.com:jaimersoncorreia/aula16.git
+git push -u origin master
