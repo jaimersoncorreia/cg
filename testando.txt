@@ -1,4 +1,21 @@
-﻿Testando a conexão com o github
+﻿isso é apenas um texto para mim deleitá-me rsrs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Testando a conexão com o github
 
 echo "# aula16" >> README.md
 git init
