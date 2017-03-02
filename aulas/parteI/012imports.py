@@ -1,7 +1,7 @@
-'''
+"""
 	Autor: Jaimerson Correia
 	Descrição:Usando código já pronto: importando módulos
-'''
+"""
 #Tipos de imports
 #import math
 #import math as matematica
