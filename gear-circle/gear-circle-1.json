@@ -1,0 +1,10 @@
+{
+  "obj_files": ["res/gear-circle.obj"],
+  "sequence": [
+    ["UserCallback"],
+    ["Outline", "GearCircle1"]
+  ],
+  "fit_objects": ["Gear", "GearCircle1"],
+  "module": "aluno_gear_circle",
+  "callback": "compor_cena_gear_circle_1"
+}

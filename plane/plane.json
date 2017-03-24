@@ -1,0 +1,10 @@
+{
+  "obj_files": ["res/plane.obj"],
+  "fit_objects": ["plane"],
+  "default_object": "plane",
+  "module": "aluno_plane",
+  "phases": 10,
+  "sequence": [
+    ["UserCallback"]
+  ]
+}

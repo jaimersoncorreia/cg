@@ -1,0 +1,7 @@
+{
+  "module": "aluno",
+  "callback": "compor_cena",
+  "sequence": [
+    ["UserCallback"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "obj_files": ["res/plane.obj"],
+  "fit_objects": ["plane", "plane.005"],
+  "default_object": "plane",
+  "module": "aluno_plane",
+  "callback": "compor_cena_ex5",
+  "phases": 10,
+  "depth": true,
+  "sequence": [
+    ["Outline", "plane.005"],
+    ["UserCallback"]
+  ]
+}
