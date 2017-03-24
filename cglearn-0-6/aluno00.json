@@ -1,0 +1,7 @@
+{
+  "module": "aluno00",
+  "callback": "compor_casa",
+  "sequence": [
+    ["UserCallback"]
+  ]
+}

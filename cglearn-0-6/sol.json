@@ -1,0 +1,7 @@
+{
+  "module": "sol",
+  "callback": "compor_sol",
+  "sequence": [
+    ["UserCallback"]
+  ]
+}
