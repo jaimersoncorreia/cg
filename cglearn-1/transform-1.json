@@ -1,0 +1,10 @@
+{
+  "obj_files": ["res/gear.obj"],
+  "module": "aluno_transform",
+  "fit_objects": ["Gear", "GearTarget1"],
+  "default_object": "Gear",
+  "sequence": [
+    ["Outline", "GearTarget1"],
+    ["UserCallback"]
+  ]
+}
