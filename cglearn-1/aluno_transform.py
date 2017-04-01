@@ -51,18 +51,31 @@ def compor_cena(c):
 #	c.draw()
 
 #transform-7.json
-#def compor_cena(c):
-#	glRotate(60,0,0,1)	#3
-#	glTranslate(3,0,0)	#2
-#	glRotate(-60,0,0,1)	#1
-#	c.draw()
-
-#transform-7.json
 def compor_cena(c):
-	glRotate(60,0,0,1)	#3
-	glTranslate(3,0,0)	#2
-	glRotate(-30,0,0,1)	#1
+	#glRotate(60,0,0,1)	#3
+	#glTranslate(3,0,0)	#2
+	#glRotate(-60,0,0,1)	#1
+	glTranslate(3*cos(60*pi/180),3*sin(60*pi/180),0)
 	c.draw()
+
+def glTranslatePolar(angle, distance):
+	glTranslate(distance*cos(angle*pi/180),distance*sin(angle*pi/180),0)
+
+#transform-8.json
+#def compor_cena(c):
+	#solução normal
+	#glRotate(60,0,0,1)	#3
+	#glTranslate(3,0,0)	#2
+	#glRotate(-30,0,0,1)	#1
+	
+	#solução com tudo
+	#glTranslate(3*cos(60*pi/180),3*sin(60*pi/180),0)
+	#glRotate(30,0,0,1)
+
+	#solução com função auxiliar
+	#glTranslatePolar(60,3)
+	#glRotate(30,0,0,1)
+	#c.draw()
 
 def processar_teclado():
     pass

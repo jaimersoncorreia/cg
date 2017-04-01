@@ -1,0 +1,10 @@
+{
+  "obj_files": ["res/tangram.obj"],
+  "sequence": [
+    ["UserCallback"],
+    ["Outline", "EX6"]
+  ],
+  "fit_objects": ["Q", "P", "TP1", "TP2", "TM", "TG1", "TG2", "EX6"],
+  "module": "aluno_tangram",
+  "callback": "compor_cena_ex6"
+}

@@ -26,7 +26,7 @@ def download(response, output):
 def main():
     print(sys.argv[1]+" tentando baixar....")
     response = resquest.urlopen(sys.argv[1])
-    out_file = io.FileIO("Kdenlive-16.12.1-w64.zip.meta4",mode="w")
+    out_file = io.FileIO("capcha.php",mode="w")
 
     content_length = response.getheader('Content-Length')
     if content_length:
